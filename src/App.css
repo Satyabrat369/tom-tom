@@ -1,0 +1,31 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.app{
+  height: 1000px;
+  width: 1000vh;
+}
+
+
+.map {
+  height: 800px;
+  width: 800px;
+}
+
+.marker{
+  background-image: url('./navi.png');
+  background-size: cover;
+  width: 46px;
+  height: 46px;
+  background-color: yellow;
+  border-radius: 11px;
+  
+}
+
+.marker-delivery {
+  width: 22px;
+  height: 22px;
+  background-color: red;
+}
